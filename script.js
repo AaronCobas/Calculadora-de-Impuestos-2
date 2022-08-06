@@ -11,7 +11,7 @@ const formICL = document.getElementById("formICL")
 const iclInput = document.getElementById("iclInput")
 const divICL = document.getElementById("divICL")
 formIVA.addEventListener("submit", (iva1) => {
-    iva1.preventDefault
+    iva1.preventDefault()
 let numeroCalcular = parseFloat(ivaInput.value)
 divIVA.innerHTML += `
 <div class="card" style="width: 18rem;">
@@ -23,7 +23,7 @@ divIVA.innerHTML += `
 formIVA.reset() 
 })
 formICL.addEventListener("submit", (e1) => {
-    e1.preventDefault
+    e1.preventDefault()
 let numeroCalcularicl = parseFloat(iclInput.value)
 divICL.innerHTML += `
 <div class="card" style="width: 18rem;">
